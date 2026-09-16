@@ -1,5 +1,6 @@
 // Icons replaced with text for simplicity
 import Link from "next/link";
+import { Linkedin, Github, Instagram } from "lucide-react";
 
 export function Hero() {
   return (
@@ -14,16 +15,22 @@ export function Hero() {
           <div className="flex items-center gap-6 mt-4 font-mono text-sm">
             <Link href="#contact" className="px-6 py-3 bg-primary text-white rounded hover:bg-primary-hover transition-colors flex items-center gap-2">Hubungi Saya &rarr;</Link>
             <div className="flex gap-4">
-              <Link href="https://linkedin.com" target="_blank" className="text-muted hover:text-primary transition-colors">LN</Link>
-              <Link href="https://github.com" target="_blank" className="text-muted hover:text-primary transition-colors">GH</Link>
-              <Link href="https://Instagram.com" target="_blank" className="text-muted hover:text-primary transition-colors">IG</Link>
+              <Link href="https://linkedin.com" target="_blank" className="text-muted hover:text-primary transition-colors">
+                <Linkedin size={20} />
+              </Link>
+              <Link href="https://github.com" target="_blank" className="text-muted hover:text-primary transition-colors">
+                <Github size={20} />
+              </Link>
+              <Link href="https://Instagram.com" target="_blank" className="text-muted hover:text-primary transition-colors">
+                <Instagram size={20} />
+              </Link>
             </div>
           </div>
         </div>
         
         <div className="mt-auto pt-8 flex gap-8 font-mono text-sm text-muted">
-          <div className="flex gap-2"><span>Core_Cert:</span><span className="text-white">MTCNA</span></div>
-          <div className="flex gap-2"><span>Base_Loc:</span><span className="text-white">Makassar, ID</span></div>
+          <div className="flex gap-2"><span>Sertifikasi:</span><span className="text-white">MTCNA</span></div>
+          <div className="flex gap-2"><span>Lokasi:</span><span className="text-white">Makassar, ID</span></div>
         </div>
       </div>
       <div className="flex-1 w-full relative">
