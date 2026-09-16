@@ -6,7 +6,7 @@ export function Hero() {
     <section id="intro" className="flex flex-col md:flex-row gap-12 items-stretch justify-between min-h-[60vh] pt-12">
       <div className="flex-1 flex flex-col max-w-2xl">
         <div className="flex flex-col gap-6">
-          <div className="font-mono text-primary text-sm">INTRO</div>
+          <div className="font-mono text-primary text-sm">TENTANG</div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">Hi, Saya Gempar.</h1>
           <p className="text-xl text-white leading-relaxed">
             Junior Network Engineer berbasis di Makassar, Indonesia. Lulusan S1 Informatika dengan sertifikasi MTCNA, berfokus pada desain jaringan, konfigurasi dasar, dan pemecahan masalah jaringan.
