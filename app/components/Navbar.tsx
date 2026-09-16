@@ -19,7 +19,7 @@ export function Navbar() {
         <Link href="#certs" className="hover:text-primary transition-colors">SERTIFIKASI</Link>
         <Link href="#projects" className="hover:text-primary transition-colors">PROYEK</Link>
       </nav>
-      <Link href="#contact" className="ml-8 px-4 py-2 bg-primary text-white font-mono text-sm rounded hover:bg-primary-hover transition-colors">Send Me</Link>
+      <Link href="#contact" className="ml-8 px-4 py-2 bg-primary text-white font-mono text-sm rounded hover:bg-primary-hover transition-colors">HUBUNGI SAYA</Link>
     </header>
   );
 }
