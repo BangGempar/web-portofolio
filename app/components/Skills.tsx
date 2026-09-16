@@ -1,11 +1,12 @@
 export function Skills() {
   const skills = [
-    { name: "OSPF & BGP", desc: "Dynamic routing protocols design & implementation" },
-    { name: "VLAN", desc: "Layer 2 segmentation and STP management" },
-    { name: "Firewall", desc: "Access control, NAT, and stateful inspection" },
-    { name: "MikroTik", desc: "RouterOS configuration and optimization" },
+    { name: "ROUTING", desc: "OSPF, BGP, Static Routing" },
+    { name: "INFRASTRUKTUR", desc: "Subnetting, NAT, DHCP, DNS" },
+    { name: "KEAMANAN", desc: "Firewall, ACL, VPN" },
+    { name: "WIRELESS", desc: "Wi-Fi setup, WPA2/WPA3" },
     { name: "GNS3", desc: "Network simulation and pre-deployment testing" },
-    { name: "Diagnostics", desc: "Wireshark, tcpdump, and root cause analysis" }
+    { name: "TROUBELSHOOTING", desc: "Wireshark, ping, traceroute" },
+    { name: "AUTOMATION", desc: "Python/Bash scripting" }
   ];
 
   return (
