@@ -10,7 +10,7 @@ export function Skills() {
 
   return (
     <section id="skills" className="flex flex-col gap-8">
-      <div className="font-mono text-primary text-sm">02 // SKILLS & COMPETENCE</div>
+      <div className="font-mono text-primary text-sm">SKILLS & COMPETENCE</div>
       <div className="grid md:grid-cols-3 gap-6">
         {skills.map(s => (
           <div key={s.name} className="p-6 bg-card border border-border rounded hover:border-primary/50 hover:shadow-lg transition-all group">

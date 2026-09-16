@@ -8,7 +8,7 @@ export function Projects() {
   ];
   return (
     <section id="projects" className="flex flex-col gap-8">
-      <div className="font-mono text-primary text-sm">04 // RECENT PROJECTS</div>
+      <div className="font-mono text-primary text-sm">PROJECTS</div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {projects.map(p => (
           <div key={p.title} className="flex flex-col border border-border rounded overflow-hidden hover:border-primary/50 transition-colors">
