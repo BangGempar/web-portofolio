@@ -7,7 +7,7 @@ export function Hero() {
       <div className="flex-1 flex flex-col max-w-2xl">
         <div className="flex flex-col gap-6">
           <div className="font-mono text-primary text-sm">TENTANG</div>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight animate-typing pr-2 w-fit">Hi, Saya Gempar.</h1>
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold tracking-tight animate-typing pr-2 w-fit">Hi, Saya Gempar.</h1>
           <p className="text-xl text-white leading-relaxed">
             Junior Network Engineer berbasis di Makassar, Indonesia. Lulusan S1 Informatika dengan sertifikasi MTCNA, berfokus pada desain jaringan, konfigurasi dasar, dan pemecahan masalah jaringan.
           </p>
