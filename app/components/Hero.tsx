@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section id="hero" className="flex flex-col md:flex-row gap-12 items-start justify-between min-h-[60vh] pt-12">
+    <section id="intro" className="flex flex-col md:flex-row gap-12 items-start justify-between min-h-[60vh] pt-12">
       <div className="flex-1 flex flex-col gap-6 max-w-2xl">
         <div className="font-mono text-primary text-sm">00 // INTRO</div>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight">Hi, I'm Gempar.</h1>
-        <p className="text-xl text-muted leading-relaxed">
+        <p className="text-xl text-white leading-relaxed">
           Network Engineer & Systems Architect based in Makassar, Indonesia. Specializing in enterprise networks, automation, and security.
         </p>
         <div className="flex items-center gap-6 mt-4 font-mono text-sm">

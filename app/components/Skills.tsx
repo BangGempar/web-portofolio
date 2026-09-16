@@ -15,7 +15,7 @@ export function Skills() {
         {skills.map(s => (
           <div key={s.name} className="p-6 bg-card border border-border rounded hover:border-primary/50 hover:shadow-lg transition-all group">
             <h3 className="font-bold mb-2 group-hover:text-primary transition-colors">{s.name}</h3>
-            <p className="text-sm text-muted">{s.desc}</p>
+            <p className="text-sm text-white">{s.desc}</p>
           </div>
         ))}
       </div>
