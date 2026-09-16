@@ -9,7 +9,7 @@ export function Hero() {
           <div className="font-mono text-primary text-sm">INTRO</div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">Hi, Saya Gempar.</h1>
           <p className="text-xl text-white leading-relaxed">
-            Network Engineer & Systems Architect based in Makassar, Indonesia. Specializing in enterprise networks, automation, and security.
+            Junior Network Engineer berbasis di Makassar, Indonesia. Lulusan S1 Informatika dengan sertifikasi MTCNA, berfokus pada desain jaringan, konfigurasi dasar, dan pemecahan masalah jaringan.
           </p>
           <div className="flex items-center gap-6 mt-4 font-mono text-sm">
             <Link href="#contact" className="px-6 py-3 bg-primary text-white rounded hover:bg-primary-hover transition-colors flex items-center gap-2">Hubungi Saya &rarr;</Link>
