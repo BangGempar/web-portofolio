@@ -25,10 +25,10 @@ export function Projects() {
             </div>
             <div className="bg-white p-6 flex flex-col flex-1 text-black">
               <h3 className="font-bold text-lg mb-2 leading-tight">{p.title}</h3>
-              <p className="text-sm text-gray-700 mb-4">{p.desc}</p>
-              <div className="flex flex-wrap gap-2 mb-6 flex-1 items-start">
+              <p className="text-sm text-gray-700 mb-4 flex-1">{p.desc}</p>
+              <div className="flex flex-wrap gap-1.5 mb-4 items-end">
                 {p.tech?.map(t => (
-                  <span key={t} className="px-2 py-1 bg-gray-100 border border-gray-200 text-gray-600 text-[10px] uppercase font-mono rounded">
+                  <span key={t} className="px-2 py-1 bg-gray-100 border border-gray-200 text-gray-600 text-[10px] uppercase font-mono rounded inline-flex items-center justify-center whitespace-nowrap h-6">
                     {t}
                   </span>
                 ))}
