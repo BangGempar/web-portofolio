@@ -1,5 +1,7 @@
 // Icons replaced with text for simplicity
 import Link from "next/link";
+import Image from "next/image";
+import heroImg from "./picture/gempar ceo.png";
 
 export function Hero() {
   return (
@@ -38,7 +40,7 @@ export function Hero() {
       <div className="flex-1 w-full relative">
         <div className="aspect-square max-w-md mx-auto md:ml-auto bg-card rounded border border-border overflow-hidden relative group">
            <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors z-10 mix-blend-overlay"></div>
-           <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800" alt="Server Room" className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-500" />
+           <Image src={heroImg} alt="Gempar" fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
         </div>
       </div>
     </section>
