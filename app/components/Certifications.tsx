@@ -5,7 +5,7 @@ export function Certifications() {
   ];
   return (
     <section id="certs" className="flex flex-col gap-8">
-      <div className="font-mono text-primary text-sm">CERTIFICATIONS</div>
+      <div className="font-mono text-primary text-sm">SERTIFIKASI</div>
       <div className="grid md:grid-cols-2 gap-6">
         {certs.map(c => (
           <div key={c.title} className="p-6 bg-card border border-border rounded flex flex-col gap-2 border-l-4 border-l-primary">
