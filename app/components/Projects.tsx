@@ -2,12 +2,13 @@ import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import ciscoImg from "./picture/image.png";
 import ospfImg from "./picture/image copy.png";
+import subnetImg from "./picture/image copy 2.png";
 
 export function Projects() {
   const projects = [
     { title: "SIMULASI JARINGAN VLAN KANTOR (CISCO)", desc: "Konfigurasi sub-interface, tiga VLAN, DHCP server, dan static routing.", image: ciscoImg, link: "/project_vlan_kantor.pdf" },
     { title: "SIMULASI JARINGAN MULTI KANTOR DENGAN ROUTING DINAMIS OSPF (CISCO)", desc: "Menghubungkan tiga LAN berbeda menggunakan routing dinamis OSPF, serta melakukan konfigurasi DHCP server, DNS server, web server, dan koneksi wireless.", image: ospfImg },
-    { title: "Multi-Cloud Convergence", desc: "Established secure IPsec tunnels between AWS, Azure, and on-prem." }
+    { title: "IPv4 SUBNET KALKULATOR", desc: "Established secure IPsec tunnels between AWS, Azure, and on-prem.", image: subnetImg }
   ];
   return (
     <section id="projects" className="flex flex-col gap-8">
