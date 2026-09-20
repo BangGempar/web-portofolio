@@ -6,7 +6,7 @@ export function Skills() {
     { name: "WIRELESS", desc: "Wi-Fi setup, WPA2/WPA3" },
     { name: "GNS3 dan CISCO PACKET TRACER", desc: "Topology design,Network simulation dan pre-deployment testing" },
     { name: "TROUBLESHOOTING", desc: "Wireshark, ping, traceroute" },
-    { name: "AUTOMATION", desc: "Python/Bash scripting" }
+    { name: "AUTOMATION", desc: "Typescript,Python/Bash scripting" }
   ];
 
   return (
