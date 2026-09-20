@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gempar Tahe // Network Engineer",
-  description: "Portfolio of Gempar Tahe - Network Engineer & Systems Architect",
+  title: "Gempar Tahir // Network Engineer",
+  description: "Portfolio of Gempar Tahir - Network Engineer & Systems Architect",
 };
 
 export default function RootLayout({
