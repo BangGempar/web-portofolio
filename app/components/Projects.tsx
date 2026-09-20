@@ -8,7 +8,7 @@ export function Projects() {
   const projects = [
     { title: "SIMULASI JARINGAN VLAN KANTOR (CISCO)", desc: "Konfigurasi sub-interface, tiga VLAN, DHCP server, dan static routing.", image: ciscoImg, link: "/project_vlan_kantor.pdf" },
     { title: "SIMULASI JARINGAN MULTI KANTOR DENGAN ROUTING DINAMIS OSPF (CISCO)", desc: "Menghubungkan tiga LAN berbeda menggunakan routing dinamis OSPF, serta melakukan konfigurasi DHCP server, DNS server, web server, dan koneksi wireless.", image: ospfImg, link: "/file/LAPORAN GEMPAR PERKASA TAHIR.pdf" },
-    { title: "IPv4 SUBNET KALKULATOR", desc: "alat bantu untuk menghitung pembagian jaringan IP secara otomatis, termasuk menentukan network address, broadcast address, rentang host, jumlah host yang tersedia, serta konversi antara subnet mask dan prefix (CIDR)", image: subnetImg }
+    { title: "IPv4 SUBNET KALKULATOR", desc: "alat bantu untuk menghitung pembagian jaringan IP secara otomatis, termasuk menentukan network address, broadcast address, rentang host, jumlah host yang tersedia, serta konversi antara subnet mask dan prefix (CIDR)", image: subnetImg, link: "https://github.com/BangGempar/kalkulator-subnet" }
   ];
   return (
     <section id="projects" className="flex flex-col gap-8">
