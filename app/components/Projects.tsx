@@ -7,8 +7,8 @@ import subnetImg from "./picture/image copy 2.png";
 export function Projects() {
   const projects = [
     { title: "SIMULASI JARINGAN VLAN KANTOR (CISCO)", desc: "Konfigurasi sub-interface, tiga VLAN, DHCP server, dan static routing.", image: ciscoImg, link: "/project_vlan_kantor.pdf" },
-    { title: "SIMULASI JARINGAN MULTI KANTOR DENGAN ROUTING DINAMIS OSPF (CISCO)", desc: "Menghubungkan tiga LAN berbeda menggunakan routing dinamis OSPF, serta melakukan konfigurasi DHCP server, DNS server, web server, dan koneksi wireless.", image: ospfImg },
-    { title: "IPv4 SUBNET KALKULATOR", desc: "Established secure IPsec tunnels between AWS, Azure, and on-prem.", image: subnetImg }
+    { title: "SIMULASI JARINGAN MULTI KANTOR DENGAN ROUTING DINAMIS OSPF (CISCO)", desc: "Menghubungkan tiga LAN berbeda menggunakan routing dinamis OSPF, serta melakukan konfigurasi DHCP server, DNS server, web server, dan koneksi wireless.", image: ospfImg, link: "/file/LAPORAN GEMPAR PERKASA TAHIR.pdf" },
+    { title: "IPv4 SUBNET KALKULATOR", desc: "alat bantu untuk menghitung pembagian jaringan IP secara otomatis, termasuk menentukan network address, broadcast address, rentang host, jumlah host yang tersedia, serta konversi antara subnet mask dan prefix (CIDR)", image: subnetImg }
   ];
   return (
     <section id="projects" className="flex flex-col gap-8">
