@@ -4,8 +4,8 @@ export function Skills() {
     { name: "INFRASTRUKTUR", desc: "Subnetting, NAT, DHCP, DNS" },
     { name: "KEAMANAN", desc: "Firewall, ACL, VPN" },
     { name: "WIRELESS", desc: "Wi-Fi setup, WPA2/WPA3" },
-    { name: "GNS3", desc: "Network simulation and pre-deployment testing" },
-    { name: "TROUBELSHOOTING", desc: "Wireshark, ping, traceroute" },
+    { name: "GNS3 dan CISCO PACKET TRACER", desc: "Topology design,Network simulation dan pre-deployment testing" },
+    { name: "TROUBLESHOOTING", desc: "Wireshark, ping, traceroute" },
     { name: "AUTOMATION", desc: "Python/Bash scripting" }
   ];
 

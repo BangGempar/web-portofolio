@@ -2,7 +2,7 @@ import { ExternalLink } from "lucide-react";
 
 export function Projects() {
   const projects = [
-    { title: "Enterprise & Campus Network Architecture", desc: "Designed scalable campus LAN with core-dist-access hierarchy." },
+    { title: "SIMULASI JARINGAN VLAN KANTOR (CISCO)", desc: "Konfigurasi sub-interface, tiga VLAN, DHCP server, dan static routing." },
     { title: "VLAN-based IP Series Network", desc: "Segmented corporate network with strict inter-VLAN routing policies." },
     { title: "Multi-Cloud Convergence", desc: "Established secure IPsec tunnels between AWS, Azure, and on-prem." }
   ];

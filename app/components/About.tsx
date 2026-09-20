@@ -20,9 +20,9 @@ export function About() {
               <div className="bg-card border border-border rounded-lg p-5 flex flex-col gap-2 hover:border-primary/50 transition-colors">
                 <div className="text-xs font-mono bg-muted/20 text-muted w-fit px-2 py-1 rounded">Magang (3 Bulan)</div>
                 <h4 className="font-bold text-lg text-foreground">IT Support</h4>
-                <div className="text-primary text-sm font-medium">Dinas Sumber Daya Air, Cipta Karya, dan Tata Ruang</div>
+                <div className="text-primary text-sm font-medium">Dinas Sumber Daya Air, Cipta Karya, dan Tata Ruang Makassar</div>
                 <p className="text-muted text-sm leading-relaxed mt-1">
-                  Mendukung operasional jaringan dan sistem, sekaligus menambah wawasan praktis di dunia kerja.
+                  Memastikan sistem komputer, jaringan, hardware maupun software berjalan lancar, memberikan bantuan teknis kepada pengguna .
                 </p>
               </div>
             </div>

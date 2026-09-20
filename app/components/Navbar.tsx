@@ -8,7 +8,7 @@ export function Navbar() {
           {">"}
         </div>
         <div className="flex flex-col justify-center">
-          <span className="text-white font-bold text-lg leading-tight tracking-wide">Gempar Tahir</span>
+          <span className="text-white font-bold text-lg leading-tight tracking-wide">Gempar Perkasa Tahir, S.Kom</span>
           <span className="text-muted font-mono text-xs">NET.ENG // MKS</span>
         </div>
       </div>
