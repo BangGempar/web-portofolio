@@ -1,16 +1,17 @@
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import ciscoImg from "./picture/image.png";
+import ospfImg from "./picture/image copy.png";
 
 export function Projects() {
   const projects = [
     { title: "SIMULASI JARINGAN VLAN KANTOR (CISCO)", desc: "Konfigurasi sub-interface, tiga VLAN, DHCP server, dan static routing.", image: ciscoImg, link: "/project_vlan_kantor.pdf" },
-    { title: "VLAN-based IP Series Network", desc: "Segmented corporate network with strict inter-VLAN routing policies." },
+    { title: "SIMULASI JARINGAN MULTI KANTOR DENGAN ROUTING DINAMIS OSPF (CISCO)", desc: "Menghubungkan tiga LAN berbeda menggunakan routing dinamis OSPF, serta melakukan konfigurasi DHCP server, DNS server, web server, dan koneksi wireless.", image: ospfImg },
     { title: "Multi-Cloud Convergence", desc: "Established secure IPsec tunnels between AWS, Azure, and on-prem." }
   ];
   return (
     <section id="projects" className="flex flex-col gap-8">
-      <div className="font-mono text-primary text-sm">PROJECTS</div>
+      <div className="font-mono text-primary text-sm">PROYEK</div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {projects.map(p => (
           <div key={p.title} className="flex flex-col border border-border rounded overflow-hidden hover:border-primary/50 transition-colors">
