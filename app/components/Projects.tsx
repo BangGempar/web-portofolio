@@ -7,8 +7,8 @@ import subnetImg from "./picture/image copy 2.png";
 export function Projects() {
   const projects = [
     { title: "SIMULASI JARINGAN VLAN KANTOR (CISCO)", desc: "Konfigurasi sub-interface, tiga VLAN, DHCP server, dan static routing.", image: ciscoImg, link: "/project_vlan_kantor.pdf", tech: ["Cisco", "Packet Tracer", "VLAN", "Routing"] },
-    { title: "SIMULASI JARINGAN MULTI KANTOR DENGAN ROUTING DINAMIS OSPF (CISCO)", desc: "Menghubungkan tiga LAN berbeda menggunakan routing dinamis OSPF, serta melakukan konfigurasi DHCP server, DNS server, web server, dan koneksi wireless.", image: ospfImg, link: "/file/LAPORAN GEMPAR PERKASA TAHIR.pdf", tech: ["Cisco", "Packet Tracer", "OSPF", "Server"] },
-    { title: "IPv4 SUBNET KALKULATOR", desc: "alat bantu untuk menghitung pembagian jaringan IP secara otomatis, termasuk menentukan network address, broadcast address, rentang host, jumlah host yang tersedia, serta konversi antara subnet mask dan prefix (CIDR)", image: subnetImg, link: "https://github.com/BangGempar/kalkulator-subnet", tech: ["HTML", "CSS", "JavaScript"] }
+    { title: "SIMULASI JARINGAN MULTI KANTOR DENGAN ROUTING DINAMIS OSPF (CISCO)", desc: "Menghubungkan tiga LAN berbeda menggunakan routing dinamis OSPF, serta melakukan konfigurasi DHCP server, DNS server, web server, dan koneksi wireless.", image: ospfImg, link: "/file/LAPORAN GEMPAR PERKASA TAHIR.pdf", tech: ["Cisco"] },
+    { title: "IPv4 SUBNET KALKULATOR", desc: "alat bantu untuk menghitung pembagian jaringan IP secara otomatis, termasuk menentukan network address, broadcast address, rentang host, jumlah host yang tersedia, serta konversi antara subnet mask dan prefix (CIDR)", image: subnetImg, link: "https://github.com/BangGempar/kalkulator-subnet", tech: ["Typecript", "Tailwind CSS","Next.js","Vite"] }
   ];
   return (
     <section id="projects" className="flex flex-col gap-8">
@@ -26,9 +26,9 @@ export function Projects() {
             <div className="bg-white p-6 flex flex-col flex-1 text-black">
               <h3 className="font-bold text-lg mb-2 leading-tight">{p.title}</h3>
               <p className="text-sm text-gray-700 mb-4 flex-1">{p.desc}</p>
-              <div className="flex flex-wrap gap-1.5 mb-4 items-end">
+              <div className="flex flex-wrap gap-2 mb-4 items-end">
                 {p.tech?.map(t => (
-                  <span key={t} className="px-2 py-1 bg-gray-100 border border-gray-200 text-gray-600 text-[10px] uppercase font-mono rounded inline-flex items-center justify-center whitespace-nowrap h-6">
+                  <span key={t} className="px-3 py-1 bg-gray-100 text-gray-700 text-xs rounded-full inline-flex items-center justify-center whitespace-nowrap">
                     {t}
                   </span>
                 ))}
